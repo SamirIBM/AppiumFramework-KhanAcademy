@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-12-28T13:46:34 IST" name="Suite" finished-at="2020-12-28T13:49:10 IST" duration-ms="155965">
+    <groups>
+    </groups>
+    <test started-at="2020-12-28T13:46:34 IST" name="Test" finished-at="2020-12-28T13:49:10 IST" duration-ms="155965">
+      <class name="Practice.AppiumFramework.TC_01">
+        <test-method is-config="true" signature="bt()[pri:0, instance:Practice.AppiumFramework.TC_01@479d31f3]" started-at="2020-12-28T13:46:34 IST" name="bt" finished-at="2020-12-28T13:47:02 IST" duration-ms="28641" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bt -->
+        <test-method signature="sign_in()[pri:1, instance:Practice.AppiumFramework.TC_01@479d31f3]" started-at="2020-12-28T13:47:02 IST" name="sign_in" finished-at="2020-12-28T13:47:16 IST" duration-ms="13779" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sign_in -->
+        <test-method signature="join_class()[pri:2, instance:Practice.AppiumFramework.TC_01@479d31f3]" started-at="2020-12-28T13:47:16 IST" name="join_class" finished-at="2020-12-28T13:47:39 IST" depends-on-methods="Practice.AppiumFramework.TC_01.sign_in" duration-ms="23330" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- join_class -->
+        <test-method signature="terms_of_service()[pri:3, instance:Practice.AppiumFramework.TC_01@479d31f3]" started-at="2020-12-28T13:47:39 IST" name="terms_of_service" finished-at="2020-12-28T13:48:28 IST" depends-on-methods="Practice.AppiumFramework.TC_01.sign_in" duration-ms="48330" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terms_of_service -->
+        <test-method signature="manage_teachers()[pri:4, instance:Practice.AppiumFramework.TC_01@479d31f3]" started-at="2020-12-28T13:48:28 IST" name="manage_teachers" finished-at="2020-12-28T13:48:41 IST" depends-on-methods="Practice.AppiumFramework.TC_01.sign_in" duration-ms="12958" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- manage_teachers -->
+        <test-method signature="search_course()[pri:5, instance:Practice.AppiumFramework.TC_01@479d31f3]" started-at="2020-12-28T13:48:41 IST" name="search_course" finished-at="2020-12-28T13:49:09 IST" depends-on-methods="Practice.AppiumFramework.TC_01.sign_in" duration-ms="28829" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search_course -->
+        <test-method is-config="true" signature="stop_server()[pri:0, instance:Practice.AppiumFramework.TC_01@479d31f3]" started-at="2020-12-28T13:49:09 IST" name="stop_server" finished-at="2020-12-28T13:49:10 IST" duration-ms="61" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stop_server -->
+      </class> <!-- Practice.AppiumFramework.TC_01 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
